@@ -1,0 +1,77 @@
+.hero {
+    background-color: var(--hero-bg);
+    border-bottom: 1px solid var(--border);
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+
+.hero-container {
+    width: min(1200px, calc(100% - 3rem));
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    place-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 520px;
+    text-align: left;
+    justify-self: center;
+}
+
+.hero-button-container {
+    margin-top: 2rem;
+    margin-right: 4rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.hero-button {
+    font-size: 18px;
+    background-color: var(--accent);
+    color: var(--text);
+    background: transparent;
+    border: none;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'montserrat';
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+.hero-button:hover {
+    background-color: var(--accent-hover);
+}
+
+.work-button {
+    background: var(--accent);
+    color: var(--bg);
+    font-size: 18px;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'montserrat';
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+.work-button:hover {
+    background: var(--accent-hover);
+}
+
+.hero-headshot {
+    max-width: max(20vw, 250px);
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    border: 1px solid var(--border);
+    box-shadow: 12px 12px var(--border);
+    filter: brightness(90%);
+}

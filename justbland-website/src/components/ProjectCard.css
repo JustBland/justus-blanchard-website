@@ -1,0 +1,37 @@
+.project-link {
+    text-decoration: none;
+}
+
+.project-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    padding: 1rem;
+}
+
+.project-card:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 4px var(--border);
+}
+
+.project-card img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    display: block;
+    border: 1px solid var(--border);
+}
+
+.project-title {
+    color: var(--text);
+}
+
+.project-description {
+    color: var(--text);
+}
+
+.project-skills {
+    margin-bottom: auto;
+    font-style: italic;
+}

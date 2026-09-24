@@ -1,0 +1,42 @@
+.footer-container {
+    background-color: var(--surface);
+    border-top: 1px solid var(--border);
+}
+
+.footer {
+    width: min(900px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -1rem;
+}
+
+.footer-button {
+    background-color: var(--accent);
+    padding: 0rem 1rem;
+    color: var(--text-muted);
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-weight: 400;
+    font-size: 0.9em;
+    transition-duration: 0.3s;
+}
+
+.footer-button:hover {
+    color: var(--accent)
+}
+
+p {
+    color: var(--text-muted);
+    margin-top: 2rem;
+    margin-bottom: 0;
+}

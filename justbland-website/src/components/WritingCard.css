@@ -1,0 +1,31 @@
+.writing-link {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.writing-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    width: 100%;
+    transition-duration: 0.3s;
+    padding: 2rem 1rem;
+}
+
+.writing-card:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 4px var(--border);
+}
+
+.title {
+    margin: auto;
+}
+
+.date {
+    margin-top: 10px;
+}
+
+.snippet {
+    font-style: italic;
+    margin: auto;
+}

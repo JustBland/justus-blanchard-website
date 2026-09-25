@@ -11,19 +11,10 @@
 }
 
 .contents h1 {
-    padding: 2rem 0rem;
+    margin-top: 3rem;
 }
 
-.body-projects {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    place-items: center;
-    padding: 0.5rem 0rem;
-    gap: 3rem;
-    align-items: stretch;
-}
-
-.body-writing {
+.home-writing {
     width: 100%;
     padding: 0.5rem 0rem;
     display: flex;

@@ -1,21 +1,11 @@
 import './Home.css'
 import Hero from '../components/Hero.tsx'
-import ProjectCard from '../components/ProjectCard.tsx'
+import ProjectList from '../components/ProjectList.tsx'
 import WritingCard from '../components/WritingCard.tsx'
 import projectData from '../data/projectData.ts'
 import writingData from '../data/writingData.ts'
 
 function Home() {
-    const projectElements = projectData.map((project) => {
-        return (
-            <ProjectCard
-                slug={project.slug}
-                img={project.img}
-                title={project.title}
-                description={project.description}
-                skills={project.skills} />
-        )
-    })
 
     const writingElements = writingData.map((writing) => {
         return (
@@ -33,12 +23,10 @@ function Home() {
 
             <div className='contents'>
                 <h1>Featured Projects...</h1>
-                <div className='body-projects'>
-                    {projectElements}
-                </div>
+                <ProjectList projects={projectData} />
 
                 <h1>and Writing.</h1>
-                <div className='body-writing'>
+                <div className='home-writing'>
                     {writingElements}
                 </div>
             </div>

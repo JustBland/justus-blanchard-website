@@ -1,18 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import type { Project } from './types/Project.ts'
 import './ProjectCard.css'
 
-type ProjectInfo = {
-    slug: string;
-    img: {
-        src: string;
-        alt: string;
-    }
-    title: string;
-    description: string;
-    skills: string;
-}
-
-function ProjectCard({ slug, img, title, description, skills }: ProjectInfo) {
+function ProjectCard({ slug, img, title, description, skills }: Project) {
     return (
         <Link to={`/projects/${slug}`} className='project-link'>
             <section className='project-card'>

@@ -1,14 +1,8 @@
 import { Link } from 'react-router-dom'
+import type { Writing } from './types/Writing.ts'
 import './WritingCard.css'
 
-type WritingInfo = {
-    slug: string;
-    title: string;
-    date: string;
-    snippet: string;
-}
-
-function WritingCard({ slug, title, date, snippet }: WritingInfo) {
+function WritingCard({ slug, title, date, snippet }: Writing) {
     return (
         <Link to={`/writing/${slug}`} className='writing-link'>
             <section className='writing-card'>

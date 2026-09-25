@@ -1,0 +1,6 @@
+.writing-list {
+    width: 100%;
+    padding: 0.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+}

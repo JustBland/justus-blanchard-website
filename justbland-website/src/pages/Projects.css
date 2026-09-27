@@ -1,3 +1,18 @@
 .projects-page {
-    
+    width: min(1200px, calc(100% - 3rem));
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.website-desc {
+    width: min(1000px, calc(100% - 3rem));
+    margin: 0 auto;
+}
+
+.website-desc h2 {
+    margin-top: 3rem;
+}
+
+.website-desc p {
+    margin-top: 1rem;
 }

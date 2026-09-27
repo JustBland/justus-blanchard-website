@@ -1,3 +1,6 @@
 .writing-page {
-    
+    width: min(1200px, calc(100% - 3rem));
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem; 
 }

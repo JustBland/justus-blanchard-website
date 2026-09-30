@@ -4,7 +4,7 @@ import './Projects.css'
 
 function Projects() {
     return (
-        <div className='projects-page'>
+        <main className='projects-page'>
             <h1>My Projects</h1>
             <ProjectList projects={projectData}/>
 
@@ -28,7 +28,7 @@ function Projects() {
                     regarding topics I explore, for myself and others to use.
                 </p>
             </section>
-        </div>
+        </main>
     )
 }
 

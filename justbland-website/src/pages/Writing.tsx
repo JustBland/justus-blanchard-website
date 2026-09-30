@@ -4,10 +4,10 @@ import './Writing.css'
 
 function Writing() {
     return (
-        <div className='writing-page'>
+        <main className='writing-list'>
             <h1>My Writing</h1>
             <WritingList writings={writingData} />
-        </div>
+        </main>
     )
 }
 

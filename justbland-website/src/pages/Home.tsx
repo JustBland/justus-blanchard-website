@@ -7,7 +7,7 @@ import writingData from '../data/writingData.ts'
 
 function Home() {
     return (
-        <div className='home-page'>
+        <main className='home-page'>
             <Hero />
 
             <div className='contents'>
@@ -18,7 +18,7 @@ function Home() {
                 <WritingList writings={writingData} />
 
             </div>
-        </div>
+        </main>
     )
 }
 

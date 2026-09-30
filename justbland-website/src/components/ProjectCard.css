@@ -27,8 +27,8 @@
     color: var(--text);
 }
 
-.project-description {
-    color: var(--text);
+.project-snippet {
+    color: var(--text-muted);
 }
 
 .project-skills {

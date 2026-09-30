@@ -5,6 +5,8 @@ export type Project = {
         alt: string;
     }
     title: string;
-    description: string;
+    snippet?: string;
     skills: string;
+    problem?: string;
+    description?: string;
 }

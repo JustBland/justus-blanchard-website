@@ -14,7 +14,7 @@ function ProjectList({ projects }: ProjectListProps) {
                     slug={project.slug}
                     img={project.img}
                     title={project.title}
-                    description={project.description}
+                    snippet={project.snippet}
                     skills={project.skills} />
             ))}
         </div>

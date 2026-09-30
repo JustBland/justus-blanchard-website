@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import type { Project } from './types/Project.ts'
 import './ProjectCard.css'
 
-function ProjectCard({ slug, img, title, description, skills }: Project) {
+function ProjectCard({ slug, img, title, snippet, skills }: Project) {
     return (
         <Link to={`/projects/${slug}`} className='project-link'>
             <section className='project-card'>
@@ -12,8 +12,8 @@ function ProjectCard({ slug, img, title, description, skills }: Project) {
                     {title}
                 </h2>
 
-                <p className='project-description'>
-                    {description}
+                <p className='project-snippet'>
+                    {snippet}
                 </p>
 
                 <p className='project-skills'>

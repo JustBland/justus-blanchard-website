@@ -8,19 +8,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 7.5rem;
-}
-
-h3 {
-    margin-top: 0;
-    margin-bottom: 10;
-    color: var(--text-muted);
+    padding: 0 7.5vw;
 }
 
 .header-title {
     display: flex;
     flex-direction: column;
     align-items: left;
+}
+
+.header-title h3 {
+    margin-top: 0;
+    margin-bottom: 10;
+    color: var(--text-muted);
 }
 
 .header-name {

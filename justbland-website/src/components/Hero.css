@@ -33,14 +33,9 @@
 
 .hero-button {
     font-size: 18px;
-    background-color: var(--accent);
     color: var(--text);
-    background: transparent;
-    border: none;
     padding: 0.75rem 1rem;
     text-decoration: none;
-    text-align: center;
-    font-family: 'montserrat';
     font-weight: 600;
     transition-duration: 0.3s;
 }

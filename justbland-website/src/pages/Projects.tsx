@@ -10,6 +10,7 @@ function Projects() {
 
             <section className="website-desc">
                 <h2>My Website</h2>
+                <hr />
                  <p className='website-project-desc'>
                     This website is also a small project of mine. I built
                     this website as a means to practice frontend development and 

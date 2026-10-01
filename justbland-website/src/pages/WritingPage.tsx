@@ -10,7 +10,7 @@ function WritingPage() {
     );
 
     if (!writing) {
-        return <h1>Project Not Found</h1>
+        return <h1>Writing Not Found</h1>
     }
 
     return (

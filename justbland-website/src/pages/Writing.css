@@ -1,5 +1,15 @@
-.writing-list {
+.writing-page {
     width: min(1200px, calc(100% - 3rem));
     margin: 0 auto;
     margin-bottom: 3rem; 
+}
+
+.writing-page h1 {
+    margin-bottom: 0;
+}
+
+.writing-page h3 {
+    margin-top: 0;
+    color: var(--text-muted);
+    font-weight: 400;
 }

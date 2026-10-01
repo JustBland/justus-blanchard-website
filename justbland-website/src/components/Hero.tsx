@@ -7,7 +7,7 @@ function Hero() {
         <div className='hero'>
             <div className='hero-container'>
                 <div className='hero-text'>
-                    <h1>I don't know why I'm building this website.</h1>
+                    <h1>I love building things.</h1>
                     <p>My specific interests include backend, systems, performance, audio, and parallel computing.</p>
                     <div className='hero-button-container'>
                         <Link to='/projects' className='work-button'>

@@ -15,8 +15,9 @@ export default [
                       digital mixer. It features a modular UI, allowing for preset
                       layouts and customization.`,
         skills: "Java, Typescript, React, Websockets",
+        repo: "https://github.com/JustBland/mixer-control-software",
         problem: "",
-        description: ""
+        solution: ""
     },
     {
         slug: "sensory-piano",
@@ -32,6 +33,6 @@ export default [
                       allowing music to be felt through an individual's fingers.`,
         skills: "Python, Raspberry Pi, Microcontrollers",
         problem: "",
-        description: ""
+        solution: ""
     }
 ]

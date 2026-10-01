@@ -25,10 +25,11 @@ function ProjectPage() {
 
                 <p>Skills used: {project.skills}</p>
 
-                <a href={project.repo} 
-                   target='_blank'>
-                   View Repository
-                </a>
+                {project.repo && 
+                    <a href={project.repo} 
+                       target='_blank'>
+                       View Repository
+                </a>}
 
                 <h2>PROBLEM:</h2>
                 <p>{project.problem}</p>

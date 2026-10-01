@@ -1,0 +1,51 @@
+.project-page {
+    width: min(1200px, calc(100% - 3rem));
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.project-banner {
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    overflow: visible;
+}
+
+.project-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+}
+
+.project-details {
+    width: min(1000px, calc(100% - 3rem));
+    margin: 0 auto;
+}
+
+.project-details :is(h1, h3, p) {
+    margin: 1rem auto;
+}
+
+.project-details p {
+    font-style: italic;
+}
+
+.project-details a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    color: var(--text);
+    background-color: var();
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+.project-details a:hover {
+    background-color: var(--accent);
+}

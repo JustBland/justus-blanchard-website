@@ -26,3 +26,9 @@ body {
     background-color: var(--bg);
     color: var(--text);
 }
+
+hr {
+    border: none;
+    border-top: solid 2px var(--border);
+    margin: 1rem 0;
+}

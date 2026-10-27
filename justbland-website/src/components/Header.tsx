@@ -22,10 +22,6 @@ function Header() {
                     Writing
                 </Link>
                 
-                <Link to='/About' className="nav-button">
-                    About
-                </Link>
-                
                 <a className="resume-button"
                    href={resumePdf} 
                    target='_blank' 

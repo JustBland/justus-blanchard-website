@@ -6,7 +6,6 @@ import Projects from './pages/Projects.tsx'
 import ProjectPage from './pages/ProjectPage.tsx'
 import Writing from './pages/Writing.tsx'
 import WritingPage from './pages/WritingPage.tsx'
-import About from './pages/About.tsx'
 import './App.css'
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
             <Route path="/projects/:slug" element={<ProjectPage />} />
             <Route path="/writing" element={<Writing />} />
             <Route path="writing/:slug" element={<WritingPage />} />
-            <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
     </section>

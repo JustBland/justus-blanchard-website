@@ -28,6 +28,10 @@ function Projects() {
                     my overall goal in writing is for it to serve as a reference 
                     regarding topics I explore, for myself and others to use.
                 </p>
+                <a href={"https://github.com/JustBland/justus-blanchard-website"} 
+                       target='_blank'>
+                       View Repository
+                </a>
             </section>
         </main>
     )

@@ -1,0 +1,40 @@
+.writing-details {
+    display: flex;
+    flex-direction: column;
+    max-width: 60ch;
+    margin: 0 auto;
+    margin-bottom: 3rem; 
+    font-size: 1.25rem;
+}
+
+.writing-title {
+    margin: 0.75rem 0;
+}
+
+.writing-date {
+    margin: 0;
+    margin-top: 2rem;
+    color: var(--text-muted);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.markdown-content {
+  margin: 0 auto;
+}
+
+.markdown-content p {
+  margin-bottom: 1.25rem;
+}
+
+.markdown-content blockquote {
+  border-left: 4px solid var(--text-muted);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+}
+
+.markdown-content a {
+  color: var(--accent);
+  text-decoration: none;
+}

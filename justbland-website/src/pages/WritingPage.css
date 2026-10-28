@@ -1,40 +1,45 @@
 .writing-details {
     display: flex;
     flex-direction: column;
-    max-width: 60ch;
+    max-width: 80ch;
     margin: 0 auto;
-    margin-bottom: 3rem; 
+    margin-bottom: 3rem;
+    font-family: "Source Sans 3", sans-serif;
     font-size: 1.25rem;
 }
 
 .writing-title {
     margin: 0.75rem 0;
+    color: #F4F6FB;
 }
 
 .writing-date {
     margin: 0;
     margin-top: 2rem;
-    color: var(--text-muted);
+    color: #94A3B8;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .markdown-content {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .markdown-content p {
-  margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    letter-spacing: 0.05ch;
+    color: #CBD5E1;
 }
 
 .markdown-content blockquote {
-  border-left: 4px solid var(--text-muted);
-  padding-left: 1.5rem;
-  margin: 2rem 0;
-  font-style: italic;
+    border-left: 4px solid var(--text-muted);
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
 }
 
 .markdown-content a {
-  color: var(--accent);
-  text-decoration: none;
+    color: var(--accent);
+    text-decoration: none;
 }
